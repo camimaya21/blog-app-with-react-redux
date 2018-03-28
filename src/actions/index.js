@@ -4,7 +4,7 @@ import { API_KEY } from 'babel-dotenv';
 export const FETCH_POSTS = 'fetch_posts';
 const ROOT_URL = 'http://reduxblog.herokuapp.com/api';
 
-export function fetchPost() {
+export function fetchPosts() {
   const request = axios.get(`${ROOT_URL}/posts/?key=${API_KEY}`);
 
   return {
