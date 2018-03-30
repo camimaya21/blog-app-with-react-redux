@@ -25,7 +25,7 @@ class PostsIndex extends Component {
     return (
       <div>
         <div className="text-xs-right">
-          <Link to="/posts/new">
+          <Link to="/posts/new" className="btn btn-info-outline">
             Add a new Post
           </Link>
         </div>
