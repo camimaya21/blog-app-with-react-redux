@@ -1,7 +1,7 @@
-form {
-    margin-top: 30px;
+form, div a {
+    margin: 30px 0;
 }
 
-form a {
+form a, {
     margin-left: 10px;
 }
